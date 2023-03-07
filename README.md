@@ -6,7 +6,10 @@ Components for React
 
 Place in parent dir.
 
-`npm i ../lx-components`
+```
+npm run build
+npm i ../lx-components
+```
 
 ## usage
 
