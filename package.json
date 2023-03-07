@@ -1,0 +1,76 @@
+{
+  "name": "lx-components",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Components for React",
+  "author": "Paul Buys",
+  "main": "build/index.js",
+  "module": "build/index.js",
+  "scripts": {
+    "build": "rimraf build && cross-env NODE_ENV=production babel src/lib --out-dir build --copy-files",
+    "eject": "react-scripts eject",
+    "start": "react-scripts start",
+    "test": "react-scripts test"
+  },
+  "files": [
+    "build",
+    "README.md"
+  ],
+  "keywords": [
+    "react",
+    "components",
+    "ui"
+  ],
+  "peerDependencies": {
+    "@mui/lab": "5.0.0-alpha.122",
+    "@mui/material": "^5.10.8",
+    "@mui/styled-engine-sc": "^5.10.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "@mui/lab": "5.0.0-alpha.122",
+    "@mui/material": "^5.10.8",
+    "@mui/styled-engine-sc": "^5.10.6",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "cross-env": "^7.0.3",
+    "lx-theme": "0.1.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "rimraf": "^3.0.2",
+    "styled-components": "^5.3.6",
+    "web-vitals": "^2.1.0"
+  },
+  "resolutions": {
+    "@mui/styled-engine": "npm:@mui/styled-engine-sc"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "overrides": {
+    "@mui/styled-engine": "npm:@mui/styled-engine-sc"
+  }
+}

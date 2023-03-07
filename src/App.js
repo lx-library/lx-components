@@ -1,18 +1,5 @@
-# lx-components
-
-Components for React
-
-## install
-
-Place in parent dir.
-
-`npm i ../lx-components`
-
-## usage
-
-```js
 import React from "react";
-import { Button, Toolbar } from "lx-components";
+import { Button, Toolbar } from "./lib";
 
 const App = () => {
   return (
@@ -22,4 +9,5 @@ const App = () => {
     </>
   );
 };
-```
+
+export default App;
